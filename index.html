@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feature Flags Example</title>
+    <meta charset="UTF-8" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-34226635-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-34226635-1", { optimize_id: "GTM-PH2WCS5" });
+    </script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <script src="src/index.js"></script>
+  </body>
+  <h1>Moviefy</h1>
+  <nav>
+    <ul>
+      <li>Discover</li>
+      <li>Most popular</li>
+    </ul>
+  </nav>
+  <main></main>
+</html>
