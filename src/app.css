@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+}
+
+h1 {
+  background: #3ab0ff;
+  margin: 0;
+  padding: 2rem;
+}

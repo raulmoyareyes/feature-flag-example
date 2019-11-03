@@ -1,0 +1,19 @@
+nav {
+  background-color: #24282c;
+  height: 100%;
+  max-width: 200px;
+  min-width: 200px;
+  color: #ddd;
+}
+
+ul {
+  margin: 0;
+  padding: 2rem;
+  list-style: none;
+}
+
+li {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
